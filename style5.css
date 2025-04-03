@@ -1,0 +1,130 @@
+* {
+padding: 0;
+margin: 0;
+font-family: century gothic;
+color:#FFFFFF;
+text-decoration: none;
+text-align: center;
+}
+
+header img{
+width: 25%;
+heigth: 100px;
+object-fit: cover;
+}
+
+header{
+background-color:#1E255C;
+}
+
+nav{
+position: relative;
+}
+
+nav ul {
+width: 100%;
+margin:0px;
+list-style-type: none;
+background-color: #673397;
+}
+
+nav li {
+display: inline-flex;
+position: relative;
+z-index: 1;
+}
+
+nav a {
+display: block;
+padding: 20px;
+width: 150px;
+}
+
+nav ul a:hover {
+background-color:#1E255C;
+}
+
+nav ul .menu-vertical{
+position: absolute;
+display: none;
+list-style: none;
+width: 190px;
+background-color: rgba(0, 0, 0, .5);
+padding:0px;
+top: 100%;  
+left: 0;   
+z-index: 2;
+box-sizing: border-box; 
+}
+
+.menu-horizontal li:hover .menu-vertical{
+display: block;
+z-index: 3;
+}
+
+.menu-vertical li:hover{
+background-color: #1E255C;
+}
+
+.menu-vertical li a{
+display: block;
+color: white;
+text-decoration: none;
+padding: 15px, 0px, 15px, 0px;
+}
+
+.piedepagina {
+background-color: #1E255C;
+margin-top: 100px;
+}
+
+.piedepagina p {
+padding: 100px;
+}
+ 
+.contenedor1{
+background-color: #a1b9d7; 
+background-image: url("img/fondo.webp"); 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+margin-top:0px;
+}  
+  
+.contenido2 {
+background-color: rgba(161, 185, 215, 1); 
+border: 1px solid #333;
+padding: 20px;
+width: 70%;
+margin-top: 50px; 
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+height: auto;
+min-height: 100vh;
+overflow: auto;
+position: relative;
+}
+
+.Estilo1 {
+text-align: center; 
+font-size: 36px; 
+font-weight: bold; 
+margin-top: 20px; 
+margin-bottom: 20px; 
+color: #333;  
+}
+
+.contenido2 p {
+font-size: 18px;  
+line-height: 1.8;  
+text-align: justify;  
+color: #555;  
+margin-bottom: 15px;  
+width: 100%;  
+max-width: 900px; 
+}
+
